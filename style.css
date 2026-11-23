@@ -10,6 +10,10 @@
   color: #243e63;
 }
 /* Global CSS */
+button[disabled],
+.btn-disabled {
+  cursor: not-allowed;
+}
 html {
   scroll-behavior: smooth;
 }
@@ -1183,7 +1187,12 @@ footer {
 
 END FOOTER 
 
-*/ /* MOBILE RESPONSIVENESS */
+*/
+/*
+
+ MOBILE RESPONSIVENESS 
+ 
+ */
 
 @media (max-width: 1280px) {
   header .row {
